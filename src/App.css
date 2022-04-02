@@ -24,6 +24,15 @@
   color: white;
 }
 
+button {
+  background-color: #434d60;
+  color: white;
+  padding: 15px 40px;
+  font-size: 3rem;
+  border: none;
+  cursor: pointer;
+}
+
 .App-link {
   color: #61dafb;
 }
