@@ -1,0 +1,182 @@
+body {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #118190;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App-navbar {
+  top: 0;
+  background-color: #00263a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+
+.App-navbar .App-navbar-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App-navbar .App-navbar-logo a h1 {
+  margin: 1rem;
+  font-size: 2.5rem;
+  color: #ececec;
+  text-shadow: -3px 3px 3px #1f1e1e;
+}
+
+.App-navbar .App-navbar-logo a h1 span {
+  color: #118190;
+}
+
+.App-navbar .App-navbar-logo a h1 i {
+  color: #ececec;
+}
+
+.App-navbar .App-navbar-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App-navbar .App-navbar-search .search {
+  margin: 1rem;
+  background-color: #00263a;
+  border: 2px solid #118190;
+  padding: 0.8rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  color: white;
+  font-family: inherit;
+  width: 20rem;
+}
+
+.App-navbar .App-navbar-search .search:focus {
+  outline: 0;
+  opacity: 0.8;
+}
+
+.App-navbar .App-navbar-search .search::-webkit-input-placeholder {
+  color: #94d1d9;
+}
+
+.App-navbar .App-navbar-search .search:-ms-input-placeholder {
+  color: #94d1d9;
+}
+
+.App-navbar .App-navbar-search .search::-ms-input-placeholder {
+  color: #94d1d9;
+}
+
+.App-navbar .App-navbar-search .search::placeholder {
+  color: #94d1d9;
+}
+
+.App-genres {
+  margin: 5rem 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #4b9db2;
+}
+
+.App-genres #genres {
+  width: 70rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+.App-genres #genres .genre {
+  color: white;
+  font-weight: bold;
+  background-color: #118190;
+  padding: 0.8rem 1.2rem;
+  margin: 0.5rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.App-movies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: 10rem auto;
+  gap: 6rem;
+}
+
+.App-movies .movie {
+  background-color: #00263a;
+  width: 20%;
+}
+
+.App-movies .movie .movie-poster img {
+  width: 100%;
+  border-radius: 0rem;
+}
+
+.App-movies .movie .movie-info {
+  padding: 2rem 1rem;
+}
+
+.App-movies .movie .movie-info .movie-title {
+  color: white;
+  font-family: sans-serif;
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+
+.App-movies .movie .movie-info .movie-description {
+  margin: 0;
+  font-size: 1.2rem;
+  color: gainsboro;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=App.css.map */
